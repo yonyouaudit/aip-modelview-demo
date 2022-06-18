@@ -14,7 +14,7 @@ import { Button, Icon, Modal } from 'tinper-bee';
 import 'tinper-bee/assets/tinper-bee.css';
 import 'bee-modal/build/Modal.css';
 
-import QueryModel from 'aip-modelview';
+import { QueryModel } from 'aip-modelview';
 
 import './style/App.css';
 // import QueryModel from './querymodel/QueryModel';
