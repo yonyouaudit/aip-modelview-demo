@@ -1,8 +1,8 @@
 /****************************************************
  * Audit Big Data System Query Engine
  * 模型显示框架（含凭证等相关显示）
- * 2020-09
- * Sunny <tufpsj@yonyou.com>
+ * 2022-06
+ * Sunny
  ****************************************************/
 
 import "react-app-polyfill/ie11";

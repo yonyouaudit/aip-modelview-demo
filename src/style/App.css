@@ -7,10 +7,34 @@ body {
     font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, "SimSun", 宋体 !important;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-toolbar {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding: 4px 4px;
+}
+
+.toolbar-left {
+    height: 100%;
+    margin: 0;
+    padding: 6px 4px;
+}
+
 .main-div {
     display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    height: 100vh;
+    flex: 1;
+    height: 90%;
     width: 100%;
+    padding: 4px 4px;
+}
+
+.aip-querymodel-item {
+    padding-bottom: 4px;
 }
